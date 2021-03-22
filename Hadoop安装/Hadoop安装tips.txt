@@ -1,0 +1,11 @@
+给用户Hadoop设置口令：123456
+
+/root/.ssh/id_rsa（ssh的key的默认位置）
+
+Java JDK的安装位置：/usr/lib/jvm/jdk1.8.0_181
+
+Hadoop的数据位置：/home/hadoop/hadoopData
+
+执行WordCount：hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.1.jar wordcount /input /outputmywc
+
+向hdfs中放文件：hdfs dfs -put /home/yinmingyang/Desktop/test1.txt /input
